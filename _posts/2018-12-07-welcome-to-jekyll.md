@@ -5,8 +5,8 @@ subtitle: A awesome static site generator.
 author: Jeffrey
 categories: jekyll
 banner:
-  video: https://vjs.zencdn.net/v/oceans.mp4
-  #video: https://www.youtube.com/watch?v=Fgc8iBdiG-I&ab_channel=OscarToftek%C3%A6r
+  #video: https://vjs.zencdn.net/v/oceans.mp4
+  video: <div class="x-frame video" data-video="http://player.vimeo.com/video/52302939"> </div>
   loop: true
   volume: 0.8
   start_at: 0.0
