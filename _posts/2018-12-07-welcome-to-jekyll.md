@@ -7,11 +7,11 @@ categories: jekyll
 banner:
   #video: https://vjs.zencdn.net/v/oceans.mp4
   #video: https://www.youtube.com/watch?v=Fgc8iBdiG-I&ab_channel=OscarToftek%C3%A6r
-  <!-- blank line -->
+  
   <figure class="video_container">
   <iframe src="https://www.youtube.com/watch?v=Fgc8iBdiG-I&t=1s&ab_channel=OscarToftek%C3%A6r" frameborder="0" allowfullscreen="true"> </iframe>
   </figure>
-  <!-- blank line -->
+  
   loop: true
   volume: 0.8
   start_at: 0.0
