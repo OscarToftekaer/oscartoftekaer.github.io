@@ -5,9 +5,8 @@ subtitle: A awesome static site generator.
 author: Jeffrey
 categories: jekyll
 banner:
-  #video: https://vjs.zencdn.net/v/oceans.mp4
+  video: https://vjs.zencdn.net/v/oceans.mp4
   #video: <iframe src="https://player.vimeo.com/video/824901997?h=a7b31f3a9d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="videotest"></iframe>
-  <iframe src="https://player.vimeo.com/video/824901997?h=a7b31f3a9d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="videotest"></iframe>
   loop: true
   #volume: 0.8
   start_at: 0.5
