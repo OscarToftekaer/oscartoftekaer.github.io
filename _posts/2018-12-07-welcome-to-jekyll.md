@@ -10,8 +10,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 0.0
-  #image: https://bit.ly/3xTmdUP
-  image: "assets/images/galleries/banners/home.jpeg" order: "1" artist: "Name" title: "Something" description: <iframe width="480" height="360" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"> </iframe>
+  image: https://bit.ly/3xTmdUP
   opacity: 0.618
   background: "#000"
   height: "100vh"
