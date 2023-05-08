@@ -6,7 +6,7 @@ author: Jeffrey
 categories: jekyll
 banner:
   #video: https://vjs.zencdn.net/v/oceans.mp4
-  video: assets/images/banners/videotest.mp4
+  video: https://github.com/OscarToftekaer/oscartoftekaer.github.io/blob/master/assets/images/banners/videotest.mp4
   loop: true
   volume: 0.8
   start_at: 0.0
