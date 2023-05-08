@@ -6,7 +6,7 @@ author: Jeffrey
 categories: jekyll
 banner:
   #video: https://vjs.zencdn.net/v/oceans.mp4
-  video: https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/
+  video: https://clipchamp.com/watch/T1vUFxkWkYx
   loop: true
   volume: 0.8
   start_at: 8.5
