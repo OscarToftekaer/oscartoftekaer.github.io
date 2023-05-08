@@ -6,11 +6,12 @@ author: Jeffrey
 categories: jekyll
 banner:
   #video: https://vjs.zencdn.net/v/oceans.mp4
-  video: <div class="x-frame video" data-video="http://player.vimeo.com/video/52302939"> </div>
+  #video: <div class="x-frame video" data-video="http://player.vimeo.com/video/52302939"> </div>
   loop: true
   volume: 0.8
   start_at: 0.0
-  image: https://bit.ly/3xTmdUP
+  #image: https://bit.ly/3xTmdUP
+  image: "assets/images/galleries/banners/home.jpeg" order: "1" artist: "Name" title: "Something" description: <iframe width="480" height="360" src="http://www.youtube.com/embed/WO82PoAczTc" frameborder="0"> </iframe>
   opacity: 0.618
   background: "#000"
   height: "100vh"
