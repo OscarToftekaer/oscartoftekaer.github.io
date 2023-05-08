@@ -9,7 +9,7 @@ banner:
   video: https://clipchamp.com/watch/T1vUFxkWkYx
   loop: true
   volume: 0.8
-  start_at: 8.5
+  start_at: 0.0
   image: https://bit.ly/3xTmdUP
   opacity: 0.618
   background: "#000"
