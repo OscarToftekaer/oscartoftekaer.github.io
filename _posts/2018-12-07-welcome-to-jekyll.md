@@ -4,20 +4,20 @@ title: Welcome to Jekyll!test1234
 subtitle: A awesome static site generator.
 author: Jeffrey
 categories: jekyll
-banner: <video src="assets/images/banners/videotest.mp4"></video>
-  #video: https://vjs.zencdn.net/v/oceans.mp4
+banner:
+  video: https://vjs.zencdn.net/v/oceans.mp4
   #video: <iframe width="560" height="315" src="https://www.youtube.com/embed/Fgc8iBdiG-I?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=1; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   #video: <iframe src="https://player.vimeo.com/video/824901997?h=a7b31f3a9d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="videotest"></iframe>
-  #loop: true
+  loop: true
   #volume: 0.8
-  #start_at: 0.5
-  #image: https://bit.ly/3xTmdUP
-  #opacity: 0.618
-  #background: "#000"
-  #height: "100vh"
-  #min_height: "38vh"
-  #heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
-  #subheading_style: "color: gold"
+  start_at: 0.5
+  image: https://bit.ly/3xTmdUP
+  opacity: 0.618
+  background: "#000"
+  height: "100vh"
+  min_height: "38vh"
+  heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
+  subheading_style: "color: gold"
 tags: jekyll theme yat
 sidebar: []
 ---
