@@ -13,13 +13,13 @@ banner:
   #volume: 0.8
   start_at: 0.5
   image: "/assets/images/banners/home.jpeg"
-  opacity: 0.018
+  opacity: 0.318
   background: "#000"
   height: "100vh"
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: jekyll theme yat
+tags: jekyll themeTEST yat
 sidebar: []
 ---
 
