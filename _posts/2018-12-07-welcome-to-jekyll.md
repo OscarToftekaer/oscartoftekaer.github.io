@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Clear vision, clear path - don't let blurriness steer you off track!
+title: Clear vision, clear path - don't let blurriness steer you off track! TEST
 subtitle: Be aware of manouvre accidentsTESTNOCATEGORIES1234
 author: Jeffrey
-categories: jekyll
+#categories: jekyll
 banner: 
   video: https://cogniom.com/wp-content/uploads/2019/02/Cars-Driving-on-Highway-Blurred.mp4
   #video: https://vjs.zencdn.net/v/oceans.mp4
@@ -19,7 +19,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: jekyll theme yat
+#tags: jekyll theme yat
 sidebar: []
 ---
 
