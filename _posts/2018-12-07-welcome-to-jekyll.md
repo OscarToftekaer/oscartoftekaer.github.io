@@ -13,7 +13,7 @@ banner:
   #volume: 0.8
   start_at: 0.5
   image: "/assets/images/banners/home.jpeg"
-  opacity: 0.418
+  opacity: 0.618
   background: "#000"
   height: "100vh"
   min_height: "38vh"
