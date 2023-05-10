@@ -1,3 +1,4 @@
+<!---
 ---
 layout: post
 title: Another test markdown
@@ -5,7 +6,7 @@ subtitle: Each post also has a subtitle
 categories: markdown
 tags: [test]
 ---
-
+--->
 Put the math expression within <span>$</span>...\$:
 
 \\(\LaTeX{}\\)
@@ -312,4 +313,3 @@ Tips:
 The two markdown examples below both create this table.
 
 Use pipes `{% raw %}(`|`){% endraw %}` to delineate columns, and dashes to delineate the header row from the rest of the table.
-
