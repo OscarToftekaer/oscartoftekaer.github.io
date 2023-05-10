@@ -2,7 +2,7 @@
 layout: post
 title: Mathjax Test tester1
 subtitle: My first mathjax expression
-#categories: markdown
+categories: Introduction
 #tags: [test]
 ---
 
