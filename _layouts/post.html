@@ -10,6 +10,9 @@ sidebar:
 <div class="post">
   <section>
 
+
+    <video src="../assets/images/banners/videotest.mp4"></video>
+
     {%- assign name = 'banner' -%}
     {%- include functions.html func='get_value' -%}
     {%- assign banner = return -%}
@@ -46,7 +49,7 @@ sidebar:
     {%- assign result = hidden | where_exp: "item", "item == 'related_posts'" -%}
     {%- if result.size == 0 -%}
     <div class="post-related">
-      <div>Related Articles</div>
+      <div>Related ArticlesTEST</div>
       <ul>
         {% assign posts = site[page.collection] | sample:4 %}
         {%- for post in posts -%}
