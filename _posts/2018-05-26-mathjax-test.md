@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Mathjax Test
+title: Mathjax Test tester1
 subtitle: My first mathjax expression
-categories: markdown
+#categories: markdown
 #tags: [test]
 ---
 
