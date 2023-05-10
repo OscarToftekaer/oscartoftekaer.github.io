@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Welcome to Jekyll!test
-subtitle: A awesome static site generator.
+title: Clear vision, clear path - don't let blurriness steer you off track!
+subtitle: Be aware of your of manouvre accidents
 author: Jeffrey
 categories: jekyll
 banner: 
