@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Clear vision, clear path - don't let blurriness steer you off track!
-subtitle: Be aware of your of manouvre accidents
+subtitle: Be aware of manouvre accidents bla bla
 author: Jeffrey
 categories: jekyll
 banner: 
