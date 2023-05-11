@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Clear vision, clear path - don't let blurriness steer you off track! TEST
-subtitle: Be aware of manouvre accidentsTESTNOCATEGORIES1234
+title: Mapping the Danger Zones 
+subtitle: A Comprehensive Analysis of England's Trafic Accidents
 #author: Jeffrey
 categories: Story
 banner: 
@@ -23,55 +23,24 @@ banner:
 sidebar: []
 ---
 
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+By the end of 2010, England was home to more than 52 million people [<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/2013-12-17"> 1</a>] and almost 30 million vehicles [<a href="https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-tables#all-vehicles"> 2</a>]. Unfortunately, this makes traffic accidents inevitable. In fact, between 2005 and 2010, on average almost 3.5 people were seriously injured in a traffic accident in England every day! It is therefore highly relevant to explore data concerning traffic accidents nationwide. This data story covers traffic accidents in England from 2005 to 2010.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-## section 1
 
-Jekyll also offers powerful support for code snippets:
+## Watch out in Birmingham and Manchester! Or?
+Do you ever wonder where in England traffic is most dangerous? Let’s look into it. England is divided into 335 local authority districts. The map below shows us the most dangerous districts to get into traffic. Try and zoom in on the areas you think are the most dangerous!
 
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+<iframe src="/assets/images/banners/choropleth.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="1200"
+    height="620"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+    <figcaption>Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England.</figcaption>
+</iframe>
+Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England.
 
-## section 2
+This map makes it clear that we need to look twice before we cross the road in Birmingham and Manchester. But is that the whole story? Did you try to zoom in on the London districts? They really don’t look very dramatic. But considering the fact that the capital city has a population of more than 5 times the populations of Birmingham and Manchester combined [<a href="https://da.wikipedia.org/wiki/Manchester"> 3</a>], [<a href="https://en.wikipedia.org/wiki/Birmingham"> 4</a>], [<a href="https://en.wikipedia.org/wiki/London"> 5</a>], surely we would expect to see a hotspot for traffic accidents here. Let’s have a look at the number of accidents across the 10 most populous cities in England:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-$ a \* b = c ^ b $
-
-$ 2^{\frac{n-1}{3}} $
-
-$ \int_a^b f(x)\,dx. $
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-  cout << "Hello World!";
-  return 0;
-}
-// prints 'Hi, Tom' to STDOUT.
-```
-
-```python
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
-
-p1 = Person("John", 36)
-
-print(p1.name)
-print(p1.age)
-```
