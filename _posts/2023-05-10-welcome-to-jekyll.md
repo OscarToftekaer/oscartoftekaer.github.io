@@ -23,27 +23,101 @@ banner:
 sidebar: []
 ---
 
-By the end of 2010, England was home to more than 52 million people [<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/2013-12-17"> 1</a>] and almost 30 million vehicles [<a href="https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-tables#all-vehicles"> 2</a>]. Unfortunately, this makes traffic accidents inevitable. In fact, between 2005 and 2010, on average almost 3.5 people were seriously injured in a traffic accident in England every day! It is therefore highly relevant to explore data concerning traffic accidents nationwide. This data story covers traffic accidents in England from 2005 to 2010.
+By the end of 2010, England was home to more than 52 million people [<a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/annualmidyearpopulationestimates/2013-12-17">1</a>] and almost 30 million vehicles [<a href="https://www.gov.uk/government/statistical-data-sets/vehicle-licensing-statistics-data-tables#all-vehicles">2</a>]. Unfortunately, this makes traffic accidents inevitable. In fact, between 2005 and 2010, on average almost 3.5 people were seriously injured in a traffic accident in England every day! It is therefore highly relevant to explore data concerning traffic accidents nationwide. This data story covers traffic accidents in England from 2005 to 2010.
 
 
 
 ## Watch out in Birmingham and Manchester! Or?
 Do you ever wonder where in England traffic is most dangerous? Let’s look into it. England is divided into 335 local authority districts. The map below shows us the most dangerous districts to get into traffic. Try and zoom in on the areas you think are the most dangerous!
-<body>
-  <figure>
-    <iframe src="/assets/images/banners/choropleth.html"
-        sandbox="allow-same-origin allow-scripts"
-        width="1200"
-        height="620"
-        scrolling="no"
-        seamless="seamless"
-        frameborder="0">
-    <figcaption>Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England.</figcaption>
-    </iframe>
-  </figure>
-<body>
-Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England. NR 2 HAHA
 
-This map makes it clear that we need to look twice before we cross the road in Birmingham and Manchester. But is that the whole story? Did you try to zoom in on the London districts? They really don’t look very dramatic. But considering the fact that the capital city has a population of more than 5 times the populations of Birmingham and Manchester combined [<a href="https://da.wikipedia.org/wiki/Manchester"> 3</a>], [<a href="https://en.wikipedia.org/wiki/Birmingham"> 4</a>], [<a href="https://en.wikipedia.org/wiki/London"> 5</a>], surely we would expect to see a hotspot for traffic accidents here. Let’s have a look at the number of accidents across the 10 most populous cities in England:
+<iframe src="/assets/images/banners/choropleth.html"
+    sandbox="allow-same-origin allow-scripts"
+    width="1200"
+    height="620"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+
+Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England.
+
+
+This map makes it clear that we need to look twice before we cross the road in Birmingham and Manchester. But is that the whole story? Did you try to zoom in on the London districts? They really don’t look very dramatic. But considering the fact that the capital city has a population of more than 5 times the populations of Birmingham and Manchester combined [<a href="https://da.wikipedia.org/wiki/Manchester">3</a>], [<a href="https://en.wikipedia.org/wiki/Birmingham">4</a>], [<a href="https://en.wikipedia.org/wiki/London">5</a>], surely we would expect to see a hotspot for traffic accidents here. Let’s have a look at the number of accidents across the 10 most populous cities in England:
+
+<iframe src="/assets/images/banners/Cities.png"
+    sandbox="allow-same-origin allow-scripts"
+    width="1200"
+    height="620"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+Figure 2: Bar chart showing the combined number of traffic accidents for the 10 largest cities in England
+
+
+Wow, London takes first place and far outranks the other cities when it comes to traffic accidents. Maybe the previous map made Londoners feel a tad too safe. So how about instead of dividing England into districts, we simply divide it into square kilometers? Have a look at the following map:
+
+<iframe src="/assets/images/banners/2DHistogram.png"
+    sandbox="allow-same-origin allow-scripts"
+    width="1200"
+    height="620"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+Figure 3: 2D histogram showing the number of traffic accidents per square kilometer
+
+
+Allright, our expectations are confirmed. Looking twice before crossing the road in Birmingham and Manchester might not be such a bad idea. But definitely look three times if you’re ever in London!
+
+
+## England’s most dangerous road!
+
+Now, let’s find the most dangerous road in England! Most of the roads in England are categorized into 4 different classes: A, B, C, and M. A-roads are the main roads connecting towns and cities, B- and C-roads are smaller roads connecting small towns and villages and M-roads are high-speed motorways [<a href="https://www.bituchem.com/knowledge-hub/what-are-the-different-types-of-road-in-the-uk/">6</a>]. First, we can get an overview of where most of the accidents occur by looking at the bar chart below:
+
+<iframe src="/assets/images/banners/RoadClasses.png"
+    sandbox="allow-same-origin allow-scripts"
+    width="1200"
+    height="620"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+Figure 4: Overview of the number of accidents for each of the road types
+
+
+The vast majority of accidents appear to occur on A-roads, so we should take a closer look at those. Luckily, these are some of the most well-known roads in England, so it will be easier to find information on them later. For now, let’s see the top 30 A-roads in England with the most accidents.
+
+<iframe src="/assets/images/banners/Top30Roads.png"
+    sandbox="allow-same-origin allow-scripts"
+    width="1200"
+    height="620"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+Figure 5: Accumulated number of accidents for each of the top 30 roads.
+
+
+It looks like road A6 is the most dangerous road with over 6000 accidents, closely followed by road A38. A quick Google search reveals that A6 and A38 are 453.8 km and 469.9 km long, respectively [<a href="https://en.wikipedia.org/wiki/A6_road_(England)">7</a>], [<a href="https://en.wikipedia.org/wiki/A38_road">8</a>]]. These are some of the longest roads in England, which might explain why a larger number of accidents occur here. 
+
+Therefore, another way of looking at it would be to calculate how many accidents happen per kilometer of road for each of the top 30 roads.
+
+<iframe src="/assets/images/banners/Top30RoadsNorm.png"
+    sandbox="allow-same-origin allow-scripts"
+    width="1200"
+    height="620"
+    scrolling="no"
+    seamless="seamless"
+    frameborder="0">
+</iframe>
+Figure 6: Similar to Figure 5, this bar chart shows the number of traffic accidents for each of the top 30 roads, but now it is normalized by the length of each given road.
+
+
+
+
+
+
+
 
 
