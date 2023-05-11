@@ -29,17 +29,20 @@ By the end of 2010, England was home to more than 52 million people [<a href="ht
 
 ## Watch out in Birmingham and Manchester! Or?
 Do you ever wonder where in England traffic is most dangerous? Let’s look into it. England is divided into 335 local authority districts. The map below shows us the most dangerous districts to get into traffic. Try and zoom in on the areas you think are the most dangerous!
-
-<iframe src="/assets/images/banners/choropleth.html"
-    sandbox="allow-same-origin allow-scripts"
-    width="1200"
-    height="620"
-    scrolling="no"
-    seamless="seamless"
-    frameborder="0">
+<body>
+  <figure>
+    <iframe src="/assets/images/banners/choropleth.html"
+        sandbox="allow-same-origin allow-scripts"
+        width="1200"
+        height="620"
+        scrolling="no"
+        seamless="seamless"
+        frameborder="0">
     <figcaption>Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England.</figcaption>
-</iframe>
-Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England.
+    </iframe>
+  </figure>
+<body>
+Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England. NR 2 HAHA
 
 This map makes it clear that we need to look twice before we cross the road in Birmingham and Manchester. But is that the whole story? Did you try to zoom in on the London districts? They really don’t look very dramatic. But considering the fact that the capital city has a population of more than 5 times the populations of Birmingham and Manchester combined [<a href="https://da.wikipedia.org/wiki/Manchester"> 3</a>], [<a href="https://en.wikipedia.org/wiki/Birmingham"> 4</a>], [<a href="https://en.wikipedia.org/wiki/London"> 5</a>], surely we would expect to see a hotspot for traffic accidents here. Let’s have a look at the number of accidents across the 10 most populous cities in England:
 
