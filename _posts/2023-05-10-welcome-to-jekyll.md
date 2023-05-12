@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapping the Danger Zones final
+title: Mapping the Danger Zones final1
 subtitle: A Comprehensive Analysis of England's Trafic Accidents
 #author: Jeffrey
 #categories: Story
@@ -60,7 +60,7 @@ Wow, London takes first place and far outranks the other cities when it comes to
 
 <iframe src="/assets/images/banners/2DHistogram.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1200"
+    width="1500"
     height="700"
     scrolling="no"
     seamless="seamless"
