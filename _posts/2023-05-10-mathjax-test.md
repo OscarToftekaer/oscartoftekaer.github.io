@@ -2,7 +2,7 @@
 layout: post
 title: About the UK Road Safety dataset opacity
 #subtitle: My first mathjax expression
-categories: Introduction
+#categories: Introduction
 
 banner: 
     image: "/assets/images/banners/aboutpicture.jpeg"

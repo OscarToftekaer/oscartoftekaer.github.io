@@ -3,7 +3,7 @@ layout: post
 title: Mapping the Danger Zones final
 subtitle: A Comprehensive Analysis of England's Trafic Accidents
 #author: Jeffrey
-categories: Story
+#categories: Story
 banner: 
   video: https://cogniom.com/wp-content/uploads/2019/02/Cars-Driving-on-Highway-Blurred.mp4
   #video: https://vjs.zencdn.net/v/oceans.mp4
@@ -53,7 +53,7 @@ This map makes it clear that we need to look twice before we cross the road in B
     frameborder="0">
     
 </iframe>
-Figure 2: Bar chart showing the combined number of traffic accidents for the 10 largest cities in England. testsize1
+Figure 2: Bar chart showing the combined number of traffic accidents for the 10 largest cities in England.
 
 
 Wow, London takes first place and far outranks the other cities when it comes to traffic accidents. Maybe the previous map made Londoners feel a tad too safe. So how about instead of dividing England into districts, we simply divide it into square kilometers? Have a look at the following map:
@@ -61,7 +61,7 @@ Wow, London takes first place and far outranks the other cities when it comes to
 <iframe src="/assets/images/banners/2DHistogram.png"
     sandbox="allow-same-origin allow-scripts"
     width="1200"
-    height="500"
+    height="1000"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
