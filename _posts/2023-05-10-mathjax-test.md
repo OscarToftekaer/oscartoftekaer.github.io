@@ -1,6 +1,6 @@
 ---
 layout: post
-title: About the UK Road Safety dataset opacity
+title: About the UK Road Safety dataset
 #subtitle: My first mathjax expression
 #categories: Introduction
 

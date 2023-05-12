@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapping the Danger Zones final7
+title: Mapping the Danger Zones
 subtitle: A Comprehensive Analysis of England's Trafic Accidents
 #author: Jeffrey
 #categories: Story
