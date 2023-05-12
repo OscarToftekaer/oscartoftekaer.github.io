@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapping the Danger Zones final1
+title: Mapping the Danger Zones final2
 subtitle: A Comprehensive Analysis of England's Trafic Accidents
 #author: Jeffrey
 #categories: Story
@@ -61,12 +61,12 @@ Wow, London takes first place and far outranks the other cities when it comes to
 <iframe src="/assets/images/banners/2DHistogram.png"
     sandbox="allow-same-origin allow-scripts"
     width="1500"
-    height="700"
+    height="1000"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
 </iframe>
-Figure 3: 2D histogram showing the number of traffic accidents per square kilometer
+Figure 3: 2D histogram showing the number of traffic accidents per square kilometer.
 
 
 Allright, our expectations are confirmed. Looking twice before crossing the road in Birmingham and Manchester might not be such a bad idea. But definitely look three times if you’re ever in London!
@@ -84,7 +84,7 @@ Now, let’s find the most dangerous road in England! Most of the roads in Engla
     seamless="seamless"
     frameborder="0">
 </iframe>
-Figure 4: Overview of the number of accidents for each of the road types
+Figure 4: Overview of the number of accidents for each of the road types.
 
 
 The vast majority of accidents appear to occur on A-roads, so we should take a closer look at those. Luckily, these are some of the most well-known roads in England, so it will be easier to find information on them later. For now, let’s see the top 30 A-roads in England with the most accidents.
@@ -92,7 +92,7 @@ The vast majority of accidents appear to occur on A-roads, so we should take a c
 <iframe src="/assets/images/banners/Top30Roads.png"
     sandbox="allow-same-origin allow-scripts"
     width="1200"
-    height="700"
+    height="800"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -107,7 +107,7 @@ Therefore, another way of looking at it would be to calculate how many accidents
 <iframe src="/assets/images/banners/Top30RoadsNorm.png"
     sandbox="allow-same-origin allow-scripts"
     width="1200"
-    height="700"
+    height="800"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
