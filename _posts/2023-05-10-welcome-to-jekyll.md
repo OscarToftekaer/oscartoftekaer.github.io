@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapping the Danger Zones final3
+title: Mapping the Danger Zones final4
 subtitle: A Comprehensive Analysis of England's Trafic Accidents
 #author: Jeffrey
 #categories: Story
@@ -60,7 +60,7 @@ Wow, London takes first place and far outranks the other cities when it comes to
 
 <iframe src="/assets/images/banners/2DHistogram.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1500"
+    width="100%"
     height="1000"
     scrolling="no"
     seamless="seamless"
@@ -78,7 +78,7 @@ Now, let’s find the most dangerous road in England! Most of the roads in Engla
 
 <iframe src="/assets/images/banners/RoadClasses.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1200"
+    width="100%"
     height="500"
     scrolling="no"
     seamless="seamless"
@@ -91,7 +91,7 @@ The vast majority of accidents appear to occur on A-roads, so we should take a c
 
 <iframe src="/assets/images/banners/Top30Roads.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1200"
+    width="100%"
     height="800"
     scrolling="no"
     seamless="seamless"
@@ -106,7 +106,7 @@ Therefore, another way of looking at it would be to calculate how many accidents
 
 <iframe src="/assets/images/banners/Top30RoadsNorm.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1200"
+    width="100%"
     height="800"
     scrolling="no"
     seamless="seamless"
@@ -123,7 +123,7 @@ So if our 19th-placed road is considered one of the most dangerous roads in Engl
 
 <iframe src="/assets/images/banners/dashboard2.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1200"
+    width="100%"
     height="620"
     scrolling="no"
     seamless="seamless"
