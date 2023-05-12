@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mapping the Danger Zones final2
+title: Mapping the Danger Zones final3
 subtitle: A Comprehensive Analysis of England's Trafic Accidents
 #author: Jeffrey
 #categories: Story
@@ -11,8 +11,8 @@ banner:
   #video: <iframe src="https://player.vimeo.com/video/824901997?h=a7b31f3a9d&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="400" height="300" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen title="videotest"></iframe>
   loop: true
   #volume: 0.8
-  start_at: 0.5
-  image: "/assets/images/banners/home.jpeg"
+  #start_at: 0.5
+  #image: "/assets/images/banners/home.jpeg"
   opacity: 0.418
   background: "#000"
   height: "100vh"
@@ -32,7 +32,7 @@ Do you ever wonder where in England traffic is most dangerous? Let’s look into
 
 <iframe src="/assets/images/banners/choropleth.html"
     sandbox="allow-same-origin allow-scripts"
-    width="1200"
+    width="100%"
     height="900"
     scrolling="no"
     seamless="seamless"
@@ -46,7 +46,7 @@ This map makes it clear that we need to look twice before we cross the road in B
 
 <iframe src="/assets/images/banners/Cities.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1200"
+    width="100%"
     height="500"
     scrolling="no"
     seamless="seamless"
