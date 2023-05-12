@@ -92,7 +92,7 @@ The vast majority of accidents appear to occur on A-roads, so we should take a c
 <iframe src="/assets/images/banners/Top30Roads.png"
     sandbox="allow-same-origin allow-scripts"
     width="900"
-    height="800"
+    height="900"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
@@ -107,7 +107,7 @@ Therefore, another way of looking at it would be to calculate how many accidents
 <iframe src="/assets/images/banners/Top30RoadsNorm.png"
     sandbox="allow-same-origin allow-scripts"
     width="900"
-    height="800"
+    height="900"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
