@@ -91,7 +91,7 @@ The vast majority of accidents appear to occur on A-roads, so we should take a c
 
 <iframe src="/assets/images/banners/Top30Roads.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1100"
+    width="1000"
     height="800"
     scrolling="no"
     seamless="seamless"
@@ -106,7 +106,7 @@ Therefore, another way of looking at it would be to calculate how many accidents
 
 <iframe src="/assets/images/banners/Top30RoadsNorm.png"
     sandbox="allow-same-origin allow-scripts"
-    width="1100"
+    width="1000"
     height="800"
     scrolling="no"
     seamless="seamless"
@@ -123,7 +123,7 @@ So if our 19th-placed road is considered one of the most dangerous roads in Engl
 
 <iframe src="/assets/images/banners/dashboard2.html"
     sandbox="allow-same-origin allow-scripts"
-    width="100%"
+    width="1100"
     height="620"
     scrolling="no"
     seamless="seamless"
