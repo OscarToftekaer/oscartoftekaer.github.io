@@ -1,9 +1,11 @@
 ---
 layout: post
-title: About the UK Road Safety dataset
+title: About the UK Road Safety datasettest
 #subtitle: My first mathjax expression
 categories: Introduction
-image: "/assets/images/banners/home.jpeg"
+
+banner: 
+    image: "/assets/images/banners/home.jpeg"
 #tags: [test]
 ---
 
