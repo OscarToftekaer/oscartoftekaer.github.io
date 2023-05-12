@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mapping the Danger Zones
-subtitle: A Comprehensive Analysis of England's Trafic Accidents
+subtitle: A Comprehensive Analysis of England's Traffic Accidents
 #author: Jeffrey
 #categories: Story
 banner: 
@@ -42,7 +42,7 @@ Do you ever wonder where in England traffic is most dangerous? Let’s look into
 Figure 1: Choropleth map showing the number of traffic accidents in all 335 local authority districts of England.
 
 
-This map makes it clear that we need to look twice before we cross the road in Birmingham and Manchester. But is that the whole story? Did you try to zoom in on the London districts? They really don’t look very dramatic. But considering the fact that the capital city has a population of more than 5 times the populations of Birmingham and Manchester combined [<a href="https://da.wikipedia.org/wiki/Manchester">3</a>], [<a href="https://en.wikipedia.org/wiki/Birmingham">4</a>], [<a href="https://en.wikipedia.org/wiki/London">5</a>], surely we would expect to see a hotspot for traffic accidents here. Let’s have a look at the number of accidents across the 10 most populous cities in England:
+This map makes it clear that we need to look twice before we cross the road in Birmingham and Manchester. But is that the whole story? Did you try to zoom in on the London districts? They really don’t look very dramatic. But considering the fact that the capital city has a population of more than 5 times the populations of Birmingham and Manchester combined [<a href="https://da.wikipedia.org/wiki/Manchester">3</a>, <a href="https://en.wikipedia.org/wiki/Birmingham">4</a>, <a href="https://en.wikipedia.org/wiki/London">5</a>], surely we would expect to see a hotspot for traffic accidents here. Let’s have a look at the number of accidents across the 10 most populous cities in England:
 
 <iframe src="/assets/images/banners/Cities.png"
     sandbox="allow-same-origin allow-scripts"
@@ -100,7 +100,7 @@ The vast majority of accidents appear to occur on A-roads, so we should take a c
 Figure 5: Accumulated number of accidents for each of the top 30 roads.
 
 
-It looks like road A6 is the most dangerous road with over 6000 accidents, closely followed by road A38. A quick Google search reveals that A6 and A38 are 453.8 km and 469.9 km long, respectively [<a href="https://en.wikipedia.org/wiki/A6_road_(England)">7</a>], [<a href="https://en.wikipedia.org/wiki/A38_road">8</a>]]. These are some of the longest roads in England, which might explain why a larger number of accidents occur here. 
+It looks like road A6 is the most dangerous road with over 6000 accidents, closely followed by road A38. A quick Google search reveals that A6 and A38 are 453.8 km and 469.9 km long, respectively [<a href="https://en.wikipedia.org/wiki/A6_road_(England)">7</a>, <a href="https://en.wikipedia.org/wiki/A38_road">8</a>]. These are some of the longest roads in England, which might explain why a larger number of accidents occur here. 
 
 Therefore, another way of looking at it would be to calculate how many accidents happen per kilometer of road for each of the top 30 roads.
 
@@ -116,7 +116,7 @@ Figure 6: Similar to Figure 5, this bar chart shows the number of traffic accide
 
 
 Looks like we have a clear winner! Road A406 hosts the most accidents per kilometer. And the long roads A6 and A38 are bumped way down the list. So road A406 is the one which Englishmen should fear the most. But is this really the case? Actually, it seems not to be. It turns out that in recent years, the media has focused more on the danger of road A41. It is no coincidence that this road appears on our list of the 30 most dangerous roads holding 19th place. The A41 runs between London and Birkenhead (close to Liverpool) and is approximately 328 km long. In May 2021 it was deemed one of the most dangerous roads for young drivers by The AA Charitable Trust [<a href="https://planetradio.co.uk/greatest-hits/beds-bucks-herts/news/a41-hertfordshire-dangerous-young-drivers/">9</a>]. Additionally, in March 2022 hundreds of residents in Hemel Hempstead signed a petition aimed at improving the safety of road A41 [<a href="https://www.watfordobserver.co.uk/news/19986225.a41-hemel-hempstead-hundreds-sign-petition-calling-safety-measures/">10</a>], and in August 2022 an article from the Shropshire Star reported that 
-“the road has been the subject of concern for a number of years, with campaign groups pressing for action to improve the safety record of the route.”[<a href="https://www.shropshirestar.com/news/transport/2022/08/08/time-to-act-over-dangerous-a41-after-shocking-number-of-deaths-and-injuries-is-revealed/">11</a>]. 
+“the road has been the subject of concern for a number of years, with campaign groups pressing for action to improve the safety record of the route.”[<a href="https://www.shropshirestar.com/news/transport/2022/08/08/time-to-act-over-dangerous-a41-after-shocking-number-of-deaths-and-injuries-is-revealed/">11</a>]
 
 So if our 19th-placed road is considered one of the most dangerous roads in England, which other roads do the Englishmen fear? Perhaps the roads considered most dangerous are not even on our top-30 list. And if A41 is especially dangerous for young drivers, maybe we should try and take a look at a more customized data representation. Below is an interactive plot, where you can choose your age, gender, and the roads in your area. The plot shows you which maneuvers cause the most accidents under the specified conditions. Take a look, and play around with the interactive plot!
 
