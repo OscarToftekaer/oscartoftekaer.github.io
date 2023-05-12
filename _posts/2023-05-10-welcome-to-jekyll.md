@@ -47,13 +47,13 @@ This map makes it clear that we need to look twice before we cross the road in B
 <iframe src="/assets/images/banners/Cities.png"
     sandbox="allow-same-origin allow-scripts"
     width="1200"
-    height="900"
+    height="500"
     scrolling="no"
     seamless="seamless"
     frameborder="0">
     
 </iframe>
-Figure 2: Bar chart showing the combined number of traffic accidents for the 10 largest cities in England. testsize
+Figure 2: Bar chart showing the combined number of traffic accidents for the 10 largest cities in England. testsize1
 
 
 Wow, London takes first place and far outranks the other cities when it comes to traffic accidents. Maybe the previous map made Londoners feel a tad too safe. So how about instead of dividing England into districts, we simply divide it into square kilometers? Have a look at the following map:
